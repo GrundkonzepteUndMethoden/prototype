@@ -1,5 +1,6 @@
 from Lampe import Lampe
 from Prototyp import Prototyp
+import copy
 
 class PremiumLampe(Prototyp, Lampe):
     def clone(self):
