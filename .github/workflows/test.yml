@@ -12,4 +12,4 @@ jobs:
           python-version: 3.8
       - name: execute tests
         run:
-          python tests.py
+          python test.py
