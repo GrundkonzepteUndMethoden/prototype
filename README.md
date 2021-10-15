@@ -1,4 +1,4 @@
-# prototype
+# Gruppe 4 - Erzeugungsmuster - Prototyp
 Repository mit Quellcode für den Vortrag über das Prototyp Pattern
 
 Inhalt des Repositorys:
