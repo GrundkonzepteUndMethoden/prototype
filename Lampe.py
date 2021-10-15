@@ -16,9 +16,9 @@ class Lampe(ABC):
         return self.zimmer
 
     @abstractmethod
-    def an():
+    def an(self):
         pass
 
     @abstractmethod
-    def aus():
+    def aus(self):
         pass

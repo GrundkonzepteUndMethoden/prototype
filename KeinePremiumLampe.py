@@ -6,14 +6,24 @@ class KeinePremiumLampe(Lampe):
     >>> type(KeinePremiumLampe("TestZimmer"))
     <class 'KeinePremiumLampe.KeinePremiumLampe'>
 
-    Test instanciation of KeinePremiumLampe.
+    Test getZimmer() of KeinePremiumLampe.
 
     >>> (KeinePremiumLampe("TestZimmer")).getZimmer()
     'TestZimmer'
 
+    Test setZimmer() of KeinePremiumLampe.
+    >>> KeinePremiumLampe("TestZimmer").setZimmer("TestZimmerNeu")
+
+    Test an() of KeinePremiumLampe.
+    >>> KeinePremiumLampe("TestZimmer").an()
+    An
+
+    Test aus() of KeinePremiumLampe.
+    >>> KeinePremiumLampe("TestZimmer").aus()
+    Aus
     """
-    def an():
+    def an(self):
         print("An")
 
-    def aus():
+    def aus(self):
         print("Aus")
